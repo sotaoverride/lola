@@ -63,10 +63,11 @@ app.o: ../app.c \
  /home/aatir/gecko_sdk//platform/common/inc/sl_status.h \
  /home/aatir/gecko_sdk//platform/emlib/inc/sli_em_cmu.h \
  /home/aatir/gecko_sdk//platform/emlib/inc/em_gpio.h \
- /home/aatir/gecko_sdk//platform/emlib/inc/em_usart.h \
+ /home/aatir/gecko_sdk//platform/emlib/inc/em_usart.h ../thor.h \
+ ../types.h /home/aatir/gecko_sdk//platform/emlib/inc/em_system.h \
  /home/aatir/gecko_sdk//hardware/kit/common/bsp/bsp.h \
  /home/aatir/gecko_sdk//hardware/kit/BGM22_BRD4310A/config/bspconfig.h \
- /home/aatir/gecko_sdk//hardware/kit/common/bsp/bsp_bcp.h
+ /home/aatir/gecko_sdk//hardware/kit/common/bsp/bsp_bcp.h ../misc.h
 /home/aatir/gecko_sdk//platform/common/toolchain/inc/sl_gcc_preinclude.h:
 /home/aatir/gecko_sdk//platform/Device/SiliconLabs/BGM22/Include/em_device.h:
 /home/aatir/gecko_sdk//platform/Device/SiliconLabs/BGM22/Include/bgm220pc22hna.h:
@@ -132,6 +133,10 @@ app.o: ../app.c \
 /home/aatir/gecko_sdk//platform/emlib/inc/sli_em_cmu.h:
 /home/aatir/gecko_sdk//platform/emlib/inc/em_gpio.h:
 /home/aatir/gecko_sdk//platform/emlib/inc/em_usart.h:
+../thor.h:
+../types.h:
+/home/aatir/gecko_sdk//platform/emlib/inc/em_system.h:
 /home/aatir/gecko_sdk//hardware/kit/common/bsp/bsp.h:
 /home/aatir/gecko_sdk//hardware/kit/BGM22_BRD4310A/config/bspconfig.h:
 /home/aatir/gecko_sdk//hardware/kit/common/bsp/bsp_bcp.h:
+../misc.h:

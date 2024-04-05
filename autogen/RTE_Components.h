@@ -3,7 +3,6 @@
 // 
 // Source template file: RTE_Components.h.jinja
 
-
 #ifndef RTE_COMPONENTS_H
 #define RTE_COMPONENTS_H
 
@@ -11,7 +10,6 @@
 #define CMSIS_device_header        "em_device.h"
 
 /* components are auto-generated here */
-
 
 #endif /* RTE_COMPONENTS_H */
 

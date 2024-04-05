@@ -31,7 +31,8 @@
 
 #include "em_cmu.h"
 
-sl_status_t sl_device_init_clocks(void)
+sl_status_t
+sl_device_init_clocks (void)
 {
   CMU_CLOCK_SELECT_SET(SYSCLK, HFXO);
 #if defined(_CMU_EM01GRPACLKCTRL_MASK)
