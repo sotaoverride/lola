@@ -158,7 +158,7 @@ app_init (void)
   initCMU ();
   initGPIO ();
   initUSART0 ();
-  check_gps (&GPS);
+
 }
 
 /***************************************************************************//**
@@ -167,4 +167,5 @@ app_init (void)
 void
 app_process_action (void)
 {
+  check_gps (&GPS);
 }
