@@ -26,7 +26,7 @@
 #include "misc.h"
 // Size of the buffer for received data
 #define BUFLEN  80
-
+TGPS GPS;
 /**************************************************************************//**
  * @brief
  *    CMU initialization
@@ -158,6 +158,7 @@ app_init (void)
   initCMU ();
   initGPIO ();
   initUSART0 ();
+  check_gps (&GPS);
 }
 
 /***************************************************************************//**

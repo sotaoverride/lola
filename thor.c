@@ -16,7 +16,6 @@
 
 #define LANDING_ALTITUDE    100
 
-TGPS GPS;
 Cords cords[350] =
   { 0 };
 int cords_index = 0;

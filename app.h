@@ -18,7 +18,8 @@
 #ifndef APP_H
 #define APP_H
 #include "types.h"
-//#include "thor.h"
+#include "thor.h"
+
 /**************************************************************************//**
  * @brief
  *    CMU initialization

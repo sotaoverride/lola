@@ -49,7 +49,7 @@ main.o: ../main.c \
  /home/aatir/gecko_sdk//platform/Device/SiliconLabs/BGM22/Include/bgm22_dma_descriptor.h \
  /home/aatir/gecko_sdk//platform/Device/SiliconLabs/BGM22/Include/bgm22_ldmaxbar_defines.h \
  /home/aatir/gecko_sdk//platform/emlib/inc/em_system.h \
- /home/aatir/gecko_sdk//platform/emlib/inc/em_system_generic.h \
+ /home/aatir/gecko_sdk//platform/emlib/inc/em_system_generic.h ../thor.h \
  /home/aatir/gecko_sdk//platform/service/system/inc/sl_system_process_action.h
 /home/aatir/gecko_sdk//platform/common/toolchain/inc/sl_gcc_preinclude.h:
 /home/aatir/SimplicityStudio/v5_workspace/lola/autogen/sl_component_catalog.h:
@@ -103,4 +103,5 @@ main.o: ../main.c \
 /home/aatir/gecko_sdk//platform/Device/SiliconLabs/BGM22/Include/bgm22_ldmaxbar_defines.h:
 /home/aatir/gecko_sdk//platform/emlib/inc/em_system.h:
 /home/aatir/gecko_sdk//platform/emlib/inc/em_system_generic.h:
+../thor.h:
 /home/aatir/gecko_sdk//platform/service/system/inc/sl_system_process_action.h:
